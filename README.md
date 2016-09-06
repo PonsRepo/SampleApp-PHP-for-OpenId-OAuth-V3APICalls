@@ -37,7 +37,7 @@ In order to successfully run this sample app you need a few things:
 
 1. Latest version of PHP on your machine. This sample uses PHP 5.6.3.
 2. Install Apache Server and configure PHP 5 to run with Apache Server
-3. Download Intuit’s latest PHP devkit from https://developer.intuit.com/docs/0100_accounting/0500_developer_kits/0209_php/php_sdk_for_quickbooks_v3 This sample uses v3-php-sdk-2.2.0-RC. (v3-php-sdk-2.2.0-RC is also included in this repository for your convenience!) 
+3. Download Intuit’s latest PHP devkit from https://developer.intuit.com/docs/0100_quickbooks_online/0400_tools/0005_accounting/0209_php/0002_install_the_php_sdk This sample uses v3-php-sdk-2.2.0-RC. (v3-php-sdk-2.2.0-RC is also included in this repository for your convenience!) 
 4. This sample needs LightOpenID library for OpenID. You can download  the LightOpenID library located [here](https://gitorious.org/lightopenid). Make sure that this is placed inside our PHPSample’s root folder.
 5. For Oauth implementation, this sample uses the Pecl Oauth library. Please download the Oauth 
 package from this [page](http://pecl.php.net/package/oauth)
@@ -82,7 +82,7 @@ Once the sample app code is on your computer, you can do the following steps to 
 **Note**: Configuring the Oauth tokens manually in app.config file is only for demonstartion purpose in this sample app. In real time production app, save the oath_token, oath_token_secret, and realmId and creation date in a persistent storage, associating them with the user who is currently authorizing access. Your app needs these values for subsequent requests to Quickbooks Data Services. Be sure to encrypt the access token and access token secret before saving them in persistent storage.
 </li>
 <li>
-Please refer to this [link](https://developer.intuit.com/docs/0050_quickbooks_api/0020_authentication_and_authorization/connect_from_within_your_app) for implementing oauth in your app.
+Please refer to this [link](https://developer.intuit.com/docs/0100_quickbooks_online/0100_essentials/0085_develop_quickbooks_apps/0004_authentication_and_authorization/connect_from_within_your_app) for implementing oauth in your app.
 </li>
 </ul>
 
@@ -114,15 +114,15 @@ Buttons and their functionalities:
 <ul>
 <li>Implementation is in TrialBalanceReport.php file. We are decoding the json response from the server and displaying the required data in a html table.</li>
 <li>Various filters can be set in the form of query params to obtain the required information from the Quickbooks reports.</li>
-<li>Please refer to various reports that are currently supported by the reports API: https://developer.intuit.com/docs/0100_accounting/0400_references/reports </li>
+<li>Please refer to various reports that are currently supported by the reports API: https://developer.intuit.com/docs/0100_quickbooks_online/0200_dev_guides/accounting/inside_a_profit_and_loss_report#/Summary_of_available_reports </li>
 </ul>
 5. All the styles are located in StyleElements.php file present inside CSS Styles folder.
 
 ### How To Guides
 
 The following How-To guides related to implementation tasks necessary to produce a production-ready Intuit Partner Platform app (e.g. OAuth, OpenId, etc) are available:
-* <a href="https://developer.intuit.com/docs/0100_accounting/0060_authentication_and_authorization/connect_from_quickbooks_apps.com" target="_blank">OpenID How To Guide </a>
-* <a href="https://developer.intuit.com/docs/0100_accounting/0060_authentication_and_authorization/connect_from_within_your_app" target="_blank">OAuth How To Guide </a>
+* <a href="https://developer.intuit.com/docs/0100_quickbooks_online/0100_essentials/0085_develop_quickbooks_apps/0004_authentication_and_authorization/0011_from_the_intuit_app_center" target="_blank">OpenID How To Guide </a>
+* <a href="https://developer.intuit.com/docs/0100_quickbooks_online/0100_essentials/0085_develop_quickbooks_apps/0004_authentication_and_authorization/connect_from_within_your_app" target="_blank">OAuth How To Guide </a>
 
 
 
