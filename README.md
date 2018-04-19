@@ -1,3 +1,5 @@
+[![Sample Banner](views/Sample.png)][ss1]
+
 PHP Sample App for OpenId / OAuth and Data Exchange Calls
 ===
 
@@ -124,5 +126,5 @@ The following How-To guides related to implementation tasks necessary to produce
 * <a href="https://developer.intuit.com/docs/0100_quickbooks_online/0100_essentials/0085_develop_quickbooks_apps/0004_authentication_and_authorization/0011_from_the_intuit_app_center" target="_blank">OpenID How To Guide </a>
 * <a href="https://developer.intuit.com/docs/0100_quickbooks_online/0100_essentials/0085_develop_quickbooks_apps/0004_authentication_and_authorization/connect_from_within_your_app" target="_blank">OAuth How To Guide </a>
 
-
+[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleApp-PHP-for-OpenId-OAuth-V3APICalls
 
